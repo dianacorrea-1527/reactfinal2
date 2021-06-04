@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 //import './Menu.css';
 
+
 class Menu extends React.Component {
 
   render() {
@@ -27,14 +28,14 @@ class Menu extends React.Component {
 			          	<NavLink to="/servicios" className="nav-link">Servicios </NavLink>
 			        </li>
 			        <li className="nav-item">
-			          	<NavLink to="/contacto" className="nav-link">Contacto </NavLink>
+			          	<NavLink to="/contacto" className="nav-link" aria-label>Contacto </NavLink>
 			        </li>
 
 			    </ul>
 
 			    <form className="form-inline mt-2 mt-md-0">
-			        <input className="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar"/>
-			        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+			        <input className="btn btn-lg" type="text" placeholder="Buscar" aria-label="Buscar"/>
+			        <button className="btn btn-info btn-lg"type="submit">Buscar</button>
 			    </form>
 		    </div>		    
 
