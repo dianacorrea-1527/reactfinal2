@@ -7,7 +7,7 @@ class Mapa extends React.Component {
     return (
  
         <div className="embed-responsive embed-responsive-4by3">
-            <iframe className="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249744.03228368837!2d-77.12786525611014!3d-12.026267587650159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses-419!2spe!4v1574809607076!5m2!1ses-419!2spe"></iframe>
+            <iframe className="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.391284491673!2d-75.5642369852309!3d6.212014695503062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442957a5557007%3A0xb9798f71073e83c5!2sAmerican%20Technet%20574!5e0!3m2!1sen!2sco!4v1622237601450!5m2!1sen!2sco"></iframe>
         </div>
  
     )

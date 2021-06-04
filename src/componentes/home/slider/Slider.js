@@ -15,24 +15,25 @@ class Slider extends React.Component {
 		    </ol>
 		    <div className="carousel-inner">
 		        <div className="carousel-item active">
-                <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/img1.jpg'} width="900" height="80" />
+                <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/img1.jpg'} width="600" height="80" />
 		            <div className="elementos">
 		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Leer mas</a>
 		            </div>
 		        </div>
 		        <div className="carousel-item">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/img2.jpg'} width="900" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/img2.jpg'} width="500" height="80" />
 		            <div className="elementos">
 		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Leer mas</a>
 		            </div>
 		        </div>
 		        <div className="carousel-item">
-                <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco3.jpeg'} width="900" height="80" />
+                <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/img3.jpg'} width="500" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Comprar</a>
+		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Leer mas</a>
 		            </div>
 		        </div>
 		    </div>
+			
 		    <a className="carousel-control-prev" href="#slider" role="button" data-slide="prev">
 		        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
 		        <span className="sr-only">Previous</span>
